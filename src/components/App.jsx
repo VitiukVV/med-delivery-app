@@ -10,7 +10,6 @@ function App() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    color: "#ff6c00",
                     fontWeight: 700,
                 }}
             >
