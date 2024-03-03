@@ -4,7 +4,6 @@ import { selectDrugsInCart } from "../../redux/shop/shopSelectors";
 import CartMedicineItem from "../cartMedicineItem/CartMedicineItem";
 import { List } from "./cartMedicine.styled";
 
-// eslint-disable-next-line react/prop-types
 const CartMedicine = () => {
     const drugsInCart = useSelector(selectDrugsInCart);
 
